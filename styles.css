@@ -1,4 +1,24 @@
 body{
-    width: 1280px; height: 1239px; position: relative; background: conic-gradient(from 180deg at -0.00% 126.92%, #D726D2 36deg, #5D4EFC 293deg)
+   
+  background: conic-gradient(from 180deg at -0.00% 126.92%, #D726D2 36deg, #5D4EFC 293deg)
 
+}
+
+h1{
+ top: 40px; 
+  text-align: center; 
+  color: black; 
+  font-size: 50px; 
+  font-family: Orbitron; 
+  font-weight: 400; 
+  
+}
+
+.content{
+  width: 99.9%; 
+  height: 1111px; 
+  top: 128px; 
+  margin: 0 auto; 
+  background: black
+  
 }
