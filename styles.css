@@ -228,5 +228,53 @@ h1{
 
 
 .pc{
+  width: 235px; 
+  height: 250px; 
+  left: 981px; 
+  top: 595px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
   
+  background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
+  border-radius: 20px
+}
+
+.fundop2{
+  width: 215px; 
+  height: 230px; 
+  left: 991px; 
+  top: 603px; 
+  background: black; 
+  border-radius: 20px
+}
+
+.imgpy{
+  width: 175px; 
+  height: 174px; 
+  left: 1011px; 
+  top: 610px; 
+  border-radius: 20px;
+  
+  
+  
+}
+
+.py{
+  left: 1065px; 
+  top: 600px; 
+  color: white; 
+  text-align: center;
+  font-size: 20px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.imgpyy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
