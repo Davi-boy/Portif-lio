@@ -22,3 +22,111 @@ h1{
   background: black
   
 }
+
+.davi, .david{
+  
+   
+  color: #9D4EDD; 
+  font-size: 16px; 
+  font-family: Fira Code; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+
+
+.sobre_mim{
+  width: 400px;
+  height: 43px; 
+  left: 369px; 
+  top: 145px;
+  position: absolute;
+}
+
+.sobre{
+  width: 194px; 
+  height: 43px; 
+  left: 369px; 
+  top: 145px;
+   
+  color: #EAEAEA; 
+  font-size: 30px; 
+  font-family: Fira Code; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.textos{
+  left: 400px;
+  top: 231px
+  position: absolute;
+  font-size: 16px;
+  color: #EAEAEA;
+  font-family: Fira Code;
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.contatos{
+  left: 1019px; 
+  top: 130px; 
+  color: white;
+  text-align: center;
+  font-size: 30px; 
+  font-family: Fira Code; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.contatos1{
+  width: 342px; 
+  height: 255px; 
+  left: 920px; 
+  top: 142px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center;
+  position: absolute; 
+  background: conic-gradient(from 180deg at 0.00% 100.00%, #D726D2 36deg, #5D4EFC 293deg); 
+  border-radius: 30px
+}
+
+.contatos2{
+  width: 340px; 
+  height: 249px; 
+  left: 930px; 
+  top: 145px; 
+   
+  background: black; 
+  border-radius: 30px
+}
+
+.imgcont1{
+  width: 44px; 
+  height: 43px; 
+  left: 930px;  
+  top: 195px;  
+  border-radius: 17px; 
+}
+
+.imgcont2{
+  width: 44px; 
+  height: 47px; 
+  left: 930px; 
+  top: 252px; 
+  border-radius: 17px
+}
+
+.imgcont3{
+  width: 44px; 
+  height: 44px; 
+  left: 930px; 
+  top: 299px; 
+  border-radius: 17px
+}
+.contact-item {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 10px; /* Espaçamento entre imagem e texto */
+}
