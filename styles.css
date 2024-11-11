@@ -14,6 +14,29 @@ h1{
   
 }
 
+.myimgdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 265px; 
+  height: 290px; 
+  left: 65px; 
+  top: 142px; 
+  position: absolute; 
+  background: conic-gradient(from 180deg at 0.00% 100.00%, #D726D2 32deg, #3A86FF 290deg); 
+  border-radius: 100%;
+}
+
+.myimg{
+  width: 262px; 
+  height: 285px; 
+  
+  top: 145px; 
+  
+  border-radius: 100%
+}
+
+
 .content{
   width: 99.9%; 
   height: 1111px; 
@@ -121,12 +144,89 @@ h1{
 .imgcont3{
   width: 44px; 
   height: 44px; 
-  left: 930px; 
+  left: 950px; 
   top: 299px; 
   border-radius: 17px
 }
 .contact-item {
+    left: 50px;
+    
     display: flex;
     align-items: center; /* Alinha verticalmente ao centro */
     gap: 10px; /* Espaçamento entre imagem e texto */
+}
+
+.projects{
+  left: 78px; 
+  top: 510px; 
+  position: absolute; 
+  color: white; 
+  font-size: 30px; 
+  font-family: Fira Code; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.hcjrc{
+  width: 826px; 
+  height: 242px; 
+  left: 136px; 
+  top: 595px; 
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  background: conic-gradient(from 90deg at 0.00% 0.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
+  border-radius: 20px
+  
+}
+
+.fundop1{
+  width: 821px; 
+  height: 237px; 
+  left: 144px; 
+  top: 605px; 
+   
+  background: black; 
+  border-radius: 20px
+}
+.imgs{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.th{
+  left: 345px; 
+  top: 613px; 
+  text-align: center;
+  color: white; 
+  font-size: 20px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.imgh{
+  width: 499px; 
+  height: 164px; 
+  left: 164px; 
+  top: 647px; 
+  border-radius: 20px;
+  
+}
+
+.imgr{
+  width: 174px; 
+  height: 152px; 
+  left: 702px; 
+  top: 659px; 
+   
+  border-radius: 20px
+}
+
+
+.pc{
+  
 }
