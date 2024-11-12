@@ -233,7 +233,8 @@ h1{
   left: 981px; 
   top: 595px; 
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
   position: absolute;
   
   background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
@@ -286,11 +287,12 @@ h1{
 
 .jc{
   width: 330px;
-  height: 214px; 
+  height: 249px; 
   left: 142px; 
   top: 861px; 
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
   position: absolute; 
   background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
   border-radius: 20px
@@ -299,7 +301,7 @@ h1{
 
 .fundop3{
   width: 314px; 
-  height: 192px; 
+  height: 227px; 
   left: 148px; 
   top: 871px; 
    
@@ -310,25 +312,174 @@ h1{
 .jt{
   left: 283px; 
   top: 871px; 
-   
-  color: white; 
+  color: white;
+  text-align: center;
   font-size: 20px; 
   font-family: Inter; 
   font-weight: 400; 
   word-wrap: break-word
+}
+.imgjj{
+  display: flex;
+  justify-content: center;
+  align-items: center
+  
 }
 
 .imgj{
   width: 277px; 
   height: 152px; 
   left: 166px; 
-  top: 901px; 
+  top: 901px;
+  border-radius: 20px;
+ 
+}
+
+
+.csc{
+  width: 229px; 
+  height: 244px;
+  left: 487px; 
+  top: 865px; 
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
+  border-radius: 20px
+}
+
+.fundop4{
+  width: 217px; 
+  height: 235px; 
+  left: 493px; 
+  top: 869px; 
+  
+  background: black; 
+  border-radius: 20px
+}
+
+.cst{
+  left: 584px; 
+  top: 878px; 
+  text-align: center;
+  color: white; 
+  font-size: 20px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+.imgcss{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.imgcs{
+  border-radius: 20px;
+  width: 163px; 
+  height: 163px; 
+  left: 517px; 
+  top: 907px
+}
+
+
+.phpc{
+  width: 235px; 
+  height: 244px; 
+  left: 737px; 
+  top: 861px; 
+  position: absolute; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
+  border-radius: 20px
+}
+
+.fundop5{
+  width: 217px; 
+  height: 235px; 
+  left: 746px; 
+  top: 865px; 
+  background: black; 
+  border-radius: 20px
+}
+
+.phpt{
+  left: 831px; 
+  top: 874px; 
+  color: white; 
+  text-align: center;
+  font-size: 20px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.imgphpp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 
+.imgphp{
+  width: 173px; 
+  height: 145px; 
+  left: 768px; 
+  top: 918px;
+  border-radius: 20px;
+}
 
 
 
+.cobolc{
+  width: 235px; 
+  height: 214px; 
+  left: 991px; 
+  top: 864px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
+  border-radius: 20px
+}
+
+.fundop6{
+  width: 217px; 
+  height: 205px; 
+  left: 1002px; 
+  top: 870px;  
+  background: black; 
+  border-radius: 20px
+}
+
+.cobolt{
+  left: 1072px; 
+  top: 878px;  
+  color: white;
+  text-align: center;
+  font-size: 20px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.imgcoboll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcobol{
+  width: 204px; 
+  height: 139px; 
+  left: 1012px; 
+  top: 931px;  
+  border-radius: 30px
+}
 
 
