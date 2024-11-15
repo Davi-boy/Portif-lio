@@ -31,6 +31,9 @@ body{
   h2{
     font-family: 'Code', 'Times';
     color: #EAEAEA;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
   }
   p{
     font-family: 'Code', 'Times';
@@ -63,14 +66,14 @@ body{
     align-items: center;
     justify-content: center;
     width: 265px; 
-    height: 290px; 
+    height: 265px; 
     background: conic-gradient(from 180deg at 0.00% 100.00%, #D726D2 32deg, #3A86FF 290deg); 
     border-radius: 100%;
   }
   
   .myimg{
     width: 262px; 
-    height: 285px; 
+    height: 262px; 
     border-radius: 100%
   }
 
@@ -113,18 +116,12 @@ body{
   }
   
   .contatos{
-     
     
-    text-align: center;
-    font-size: 30px; 
-     
-    font-weight: 400; 
-    word-wrap: break-word
   }
   
   .contatos1{
-    width: 342px; 
-    height: 255px; 
+    width: 372px; 
+    height: 305px; 
  
     display: flex;
     flex-direction: column;
@@ -136,13 +133,14 @@ body{
   }
   
   .contatos2{
-    width: 337px; 
-    height: 250px; 
+    width: 367px; 
+    height: 300px; 
     
      
     background: black; 
     border-radius: 30px
   }
+  .
   
   .imgcont1{
     width: 44px; 
@@ -165,12 +163,32 @@ body{
     border-radius: 17px
   }
   .contact-item {
-      
-      
-      display: flex;
-      align-items: center; /* Alinha verticalmente ao centro */
-      gap: 10px; /* Espaçamento entre imagem e texto */
+    width: 50%
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 10px; /* Espaçamento entre imagem e texto */
+    padding: 10px;
+    border-radius: 100px;
+    transition: transform 0.5 ease,
+    background 0.5 ease, box-shadow 0.5 ease;
   }
+  .contact-item:hover{
+    transform: scale(1.05);
+    background: conic-gradient(from 180deg at 0.00% 100.00%, #D726D2 36deg, #5D4EFC 293deg);
+    box-shadow: 0 0 20px 5px conic-gradient(from 180deg at 0.00% 100.00%, #D726D2 36deg, #5D4EFC 293deg);
+  }
+  .ctitem{
+    color: ;
+    transition: color 0.5 ease;
+  }
+  
+  
+  .contact-item:hover .ctitem{
+    color: black;
+  }
+  
   
   
   
@@ -324,8 +342,8 @@ body{
   
   
   .fundop3{
-    width: 224px; 
-    height: 239px; 
+    width: 225px; 
+    height: 244px; 
     
      
     background: black; 
