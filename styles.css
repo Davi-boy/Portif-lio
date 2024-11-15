@@ -14,9 +14,7 @@
 
 
 body{
-   
     background: conic-gradient(from 180deg at -0.00% 126.92%, #D726D2 36deg, #5D4EFC 293deg)
-  
   }
   
   h1{
@@ -92,18 +90,14 @@ body{
   .sobre{
     width: 194px; 
     height: 43px; 
-    
-     
      text-align: left;
     font-size: 30px; 
-    
     font-weight: 400; 
     word-wrap: break-word
   }
   
   .textos{
     font-size: 16px;
-    
     text-align: left;
     font-weight: 400; 
     word-wrap: break-word
@@ -122,12 +116,10 @@ body{
   .contatos1{
     width: 372px; 
     height: 305px; 
- 
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centraliza verticalmente */
     align-items: center;
-    
     background: conic-gradient(from 180deg at 0.00% 100.00%, #D726D2 36deg, #5D4EFC 293deg); 
     border-radius: 30px
   }
@@ -135,31 +127,25 @@ body{
   .contatos2{
     width: 367px; 
     height: 300px; 
-    
-     
     background: black; 
     border-radius: 30px
   }
-  .
-  
+
   .imgcont1{
     width: 44px; 
     height: 43px; 
-     
     border-radius: 17px; 
   }
   
   .imgcont2{
     width: 44px; 
     height: 47px; 
-    
     border-radius: 17px
   }
   
   .imgcont3{
     width: 44px; 
     height: 44px; 
-     
     border-radius: 17px
   }
   .contact-item {
@@ -193,11 +179,8 @@ body{
   
   
   .projects{
-     
-    
     text-align: center;
     font-size: 30px; 
-    
     font-weight: 400; 
     word-wrap: break-word
   }
@@ -209,7 +192,6 @@ body{
     gap: 30px;
     width: 100%;
     height: 300px;
-    
   }
 
 
@@ -218,22 +200,16 @@ body{
   .hcjrc{
     width: 826px; 
     height: 242px; 
-
     display: flex;
-    
     justify-content: center;
     align-items: center;
-     
     background: conic-gradient(from 90deg at 0.00% 0.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
     border-radius: 20px
-    
   }
   
   .fundop1{
     width: 821px; 
     height: 237px; 
-  
-     
     background: black; 
     border-radius: 20px
   }
@@ -244,11 +220,8 @@ body{
   }
   
   .th{
- 
     text-align: center;
-
     font-size: 20px; 
- 
     font-weight: 400; 
     word-wrap: break-word
   }
@@ -256,16 +229,12 @@ body{
   .imgh{
     width: 499px; 
     height: 164px; 
- 
     border-radius: 20px;
-    
   }
   
   .imgr{
     width: 174px; 
     height: 152px; 
- 
-     
     border-radius: 20px
   }
   
@@ -273,12 +242,9 @@ body{
   .pc{
     width: 235px; 
     height: 242px; 
-
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
     background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
     border-radius: 20px
   }
@@ -293,20 +259,14 @@ body{
   .imgpy{
     width: 165px; 
     height: 164px; 
-
     border-radius: 20px;
-    
-    
-    
   }
   
   .py{
     left: 1065px; 
     top: 600px; 
-
     text-align: center;
     font-size: 20px; 
-
     font-weight: 400; 
     word-wrap: break-word
   }
@@ -315,7 +275,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-  
   }
   
   
@@ -331,11 +290,9 @@ body{
   .jc{
     width: 230px;
     height: 249px; 
-     
     display: flex;
     justify-content: center;
     align-items: center;
-     
     background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
     border-radius: 20px
   }
@@ -344,18 +301,13 @@ body{
   .fundop3{
     width: 225px; 
     height: 244px; 
-    
-     
     background: black; 
     border-radius: 20px
   }
   
   .jt{
-     
-
     text-align: center;
     font-size: 20px; 
-
     font-weight: 400; 
     word-wrap: break-word
   }
@@ -363,15 +315,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center
-    
   }
   
   .imgj{
     width: 152px; 
     height: 152px; 
-    
     border-radius: 20px;
-   
   }
   
   
@@ -388,17 +337,13 @@ body{
   .fundop4{
     width: 224px; 
     height: 244px; 
-    
     background: black; 
     border-radius: 20px
   }
   
   .cst{
-     
     text-align: center;
-
     font-size: 20px; 
- 
     font-weight: 400; 
     word-wrap: break-word
   }
@@ -490,5 +435,3 @@ body{
     height: 139px; 
     border-radius: 30px
   }
-  
-  
