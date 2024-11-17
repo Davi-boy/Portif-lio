@@ -41,7 +41,7 @@ body{
   .content{
     width: 99.9%; 
     height: auto; 
-    top: 128px; 
+    top: 100px; 
     margin: 0 auto; 
     background: black
     
@@ -53,7 +53,6 @@ body{
     flex-direction: row;
     justify-content: space-around; /* Espaça uniformemente os elementos */
     height: 400px;
-    
     width: 100%; /* Ocupa a largura total */
     margin-top: 50px; /* Ajuste conforme necessário para posicionamento vertical */
   }
@@ -83,8 +82,6 @@ body{
     height: auto; /* Ajusta automaticamente conforme o conteúdo */
     text-align: center; /* Centraliza o texto */
     font-weight: 400;
-    
-    
   }
   
   .sobre{
@@ -109,8 +106,8 @@ body{
     word-wrap: break-word
   }
   
-  .contatos{
-    
+  .contatos-cell{
+    display: none;
   }
   
   .contatos1{
@@ -173,6 +170,27 @@ body{
   
   .contact-item:hover .ctitem{
     color: black;
+  }
+  
+  
+  @media (max-width: 1100px){
+    nav{
+      height: 0px;
+    }
+    .contatos-cell{
+      display: flex;
+      padding: -40px;
+      
+      
+    }
+    
+    
+    
+    .contatos1{
+      display: none;
+    }
+    
+    
   }
   
   
