@@ -14,7 +14,7 @@
 
 
 body{
-    background: conic-gradient(from 180deg at -0.00% 126.92%, #D726D2 36deg, #5D4EFC 293deg)
+    background: conic-gradient(from 180deg at -0.00% 126.92%, #D726D2 36deg, #5D4EFC 293deg);
   }
   
   h1{
@@ -156,6 +156,7 @@ body{
     border-radius: 100px;
     transition: transform 0.5 ease,
     background 0.5 ease, box-shadow 0.5 ease;
+    cursor: pointer;
   }
   .contact-item:hover{
     transform: scale(1.05);
@@ -163,7 +164,7 @@ body{
     box-shadow: 0 0 20px 5px conic-gradient(from 180deg at 0.00% 100.00%, #D726D2 36deg, #5D4EFC 293deg);
   }
   .ctitem{
-    color: ;
+    
     transition: color 0.5 ease;
   }
   
@@ -175,13 +176,46 @@ body{
   
   @media (max-width: 1100px){
     nav{
-      height: 0px;
+     
     }
     .contatos-cell{
       display: flex;
-      padding: -40px;
       
       
+     
+      
+      
+    }
+    
+    .clickc{
+      cursor: pointer;
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    .new-box-link {
+      text-decoration: none;
+      display: inline-block;
+      top: 10px;
+    }
+
+    .new-box {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding-top: 20px;
+      
+      
+    }
+
+    .new-box img{
+      width: 22px;
+      height: 22px;
+    }
+    
+    .textconta{
+      font-size: 20px;
+      color: black;
     }
     
     
