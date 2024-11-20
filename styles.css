@@ -11,28 +11,49 @@
     src: url('./nasalization-rg.otf') format('opentype');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 body{
     background: conic-gradient(from 180deg at -0.00% 126.92%, #D726D2 36deg, #5D4EFC 293deg);
   }
+  
   header{
-    
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    top: 0;
     width: 100%;
     height: 140px;
     background-image: url('https://thumbs.dreamstime.com/b/fundo-%C3%BAnico-azul-programa%C3%A7%C3%A3o-do-php-na-tela-laptop-c%C3%B3digo-programa-html-css-site-computador-no-port%C3%A1til-em-desenvolvimento-166653729.jpg'); /* Caminho para a imagem */
-    background-size: 100% auto; 
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: 100% auto; /* Faz a imagem cobrir toda a área */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-position: center; /* Centraliza a imagem */
+    
+    
   }
   
   h1{
+    
     text-align: center; 
     color: #EAEAEA;
     font-size: 70px; 
     font-family: 'Nasa', 'Times'; 
     font-weight: 1000;
+    
+    
+    
   }
-  
-  
   h2{
     font-family: 'Code', 'Times';
     color: #EAEAEA;
@@ -46,7 +67,7 @@ body{
   }
   
   .content{
-    width: 99.9%; 
+    width: 99%; 
     height: auto; 
     margin-top: 100px; 
     margin: 0 auto; 
@@ -185,13 +206,16 @@ body{
     
     h1{
       font-size: 55px;
+      padding-top: 20px;
     }
     
     
     nav{
+     
      background-repeat: no-repeat;
     }
     .contatos-cell{
+      padding-top: 13px;
       display: flex;
       
     }
@@ -204,12 +228,12 @@ body{
       width: auto;
       cursor: pointer;
       font-size: 20px;
+      
       background-color: hsla(0, 0%, 10%, 0.2); /* Fundo semi-transparente */
       border: 1px solid rgba(255, 255, 255, 0.3); /* Borda com opacidade */
       backdrop-filter: blur(10px); /* Efeito de desfoque */
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       margin-top: 20px;
-      border-radius: 10px 0 0 10px;
     }
     
     
@@ -230,6 +254,7 @@ body{
       min-width: 75px;
       text-decoration: none;
       display: inline-block;
+      top: 10px;
       gap: 6px;
     }
 
@@ -243,18 +268,20 @@ body{
       border: 1px solid rgba(255, 255, 255, 0.3); 
       backdrop-filter: blur(10px);
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      white-space: nowrap; 
-      overflow: hidden;
+      white-space: nowrap; /* Previne quebra de linha no contêiner */
+      overflow: hidden; 
+      
     }
 
     .new-box img{
+      
       width: 22px;
       height: 22px;
       flex-shrink: 0;
     }
     
     .textconta{
-      flex-grow: 1; 
+      flex-grow: 1; /* Permite que o texto ocupe o espaço restante no contêiner */
       max-width: calc(100% - 30px);
       font-size: 20px;
       font-family: 'Code';
@@ -264,11 +291,17 @@ body{
       text-overflow: ellipsis;
     }
     
+    
+    
     .contatos1{
       display: none;
     }
     
+    
   }
+  
+  
+  
   
   .projects{
     text-align: center;
@@ -276,6 +309,7 @@ body{
     font-weight: 400; 
     word-wrap: break-word
   }
+  
   
   .hp{
     display: flex;
@@ -285,6 +319,9 @@ body{
     height: 300px;
   }
 
+
+ 
+  
   .hcjrc{
     width: 826px; 
     height: 242px; 
