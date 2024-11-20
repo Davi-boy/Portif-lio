@@ -2,25 +2,28 @@ function addDivs(clickedDiv) {
     // Recupera o elemento pai da div clicada
     const parentDiv = clickedDiv.parentNode;
 
-    // Verifica se as divs já foram adicionadas para evitar duplicação
-    if (parentDiv.querySelector('.new-box-link')) {
-      // Atualiza o texto do botão clicado para "Contatos+"
-      clickedDiv.textContent = "Contatos+";
 
-      // Remove as divs adicionadas
+    if (parentDiv.querySelector('.new-box-link')) {
+
       const contatosMinimizar = parentDiv.querySelectorAll(".new-box-link");
       contatosMinimizar.forEach(link => link.remove());
       return; // Sai da função após a remoção
     }
 
-    // Atualiza o texto do botão clicado para "Contatos-"
-    clickedDiv.textContent = 'Contatos-';
 
-    // Adiciona três links com divs internas
     for (let i = 1; i <= 3; i++) {
       const link = document.createElement('a');
-      link.href = `#link-${i}`; // Define o destino do link
+       
       link.classList.add('new-box-link');
+      
+      
+      if (i===1){
+        link.href = 'mailto:daviddevdobrasil@gmail.com?subject=Entrevista&body=Olá,%20gostaria%20de%20marcar%20uma%20entrevista%20com%20você.%20Tem%20algum%20horário%20disponível?';
+      } else if (i===2){
+        whatsappLink.href = 'https://wa.me/5581994702499?text=Olá,%20gostaria%20de%20marcar%20uma%20entrevista.%20Você%20tem%20algum%20horário%20disponível?';
+      }else if(i===3){
+        link.href = 'https://www.instagram.com/daviddevbrasil/profilecard/?igsh=MXAwZDYwd2N1N3BqNA==';
+      }
 
       const newDiv = document.createElement('div');
       newDiv.classList.add('new-box');
