@@ -350,7 +350,11 @@ body{
       white-space: nowrap; /* Previne quebra de linha no contêiner */
       overflow: hidden; 
     }
-
+    .new-box3 img{
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+    }
     .new-box img{
       
       width: 22px;
@@ -503,6 +507,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin: 30px;
   }
 
   .hcjrc {
@@ -531,6 +536,7 @@ body{
     gap: 10px;
     justify-content: center;
     align-items: center;
+    margin: 30px;
   }
 
   .th {
@@ -540,6 +546,7 @@ body{
   .hcjrc, .pc {
     width: 100%; /* Largura total em telas menores */
     max-width: none; /* Remover limite */
+    margin-bottom: 20px ;
   }
   .pc{
     max-width: 235px;
@@ -569,6 +576,7 @@ body{
   align-items: center;
   background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg);
   border-radius: 20px;
+  margin: 20px;
 }
 
   .fundop3, .fundop4, .fundop5, .fundop6 {
@@ -624,6 +632,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px; /* Ajustar o espaçamento em telas menores */
+    margin: 30px;
   }
 
   .jc, .csc, .phpc, .cobolc {
