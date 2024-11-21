@@ -12,10 +12,18 @@ function addDivs(clickedDiv) {
 
     for (let i = 1; i <= 3; i++) {
       const link = document.createElement('a');
-       
-      link.classList.add('new-box-link');
+      
+      
+        link.classList.add('new-box-link');
+      
+      
       const newDiv = document.createElement('div');
-      newDiv.classList.add('new-box');
+      if(i===3){
+        newDiv.classList.add('new-box3');
+      }else{
+       newDiv.classList.add('new-box'); 
+      }
+      
 
       const img = document.createElement('img');
       
@@ -34,6 +42,7 @@ function addDivs(clickedDiv) {
         link.href = 'https://www.instagram.com/daviddevbrasil/profilecard/?igsh=MXAwZDYwd2N1N3BqNA==';
         img.src = './insta.png';
         text.textContent = '@daviddev';
+        
       }
 
       img.classList.add('imgsconta');
