@@ -232,7 +232,7 @@ body{
     border-radius: 17px
   }
   .contact-item {
-    width: 50%
+    
     height: auto;
     display: flex;
     justify-content: center;
@@ -241,13 +241,13 @@ body{
     padding: 15px;
     margin: 8px;
     border-radius: 100px;
-    transition: transform 0.5 ease,
-    background 0.5 ease, box-shadow 0.5 ease;
+    transition: transform 0.5 ease, background 0.5 ease, box-shadow 0.5 ease;
     cursor: pointer;
   }
   .contact-item:hover{
     transform: scale(1.05);
     background: conic-gradient(from 180deg at 0.00% 100.00%, #D726D2 36deg, #5D4EFC 293deg);
+    box-shadow: 0 0 1px 1px #923ce9;
     
   }
   .ctitem{
@@ -393,7 +393,6 @@ body{
     padding: 10px;
   }
   
-  
   .hp{
     display: flex;
     justify-content: center;
@@ -404,26 +403,25 @@ body{
     padding: 10px;
   }
 
-
- 
-  
   .hcjrc{
-    width: 90%;
+    width: 100%;
     max-width: 826px;
     height: auto; 
     display: flex;
     justify-content: center;
     align-items: center;
     background: conic-gradient(from 90deg at 0.00% 0.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
-    border-radius: 20px
+    border-radius: 20px;
+    overflow: hidden;
   }
   
   .fundop1{
     width: 95%;
     max-width: 821px;
-    height: auto; 
+    height: 95%; 
     background: black; 
-    border-radius: 20px
+    border-radius: 20px;
+    overflow: hidden;
   }
   
   .imgs{
@@ -445,13 +443,15 @@ body{
     max-width: 499px; 
     height: auto; 
     border-radius: 20px;
+    object-fit: cover; 
   }
   
   .imgr{
-    width: 80%;
+    width: 100%;
     max-width: 174px; 
     height: auto; 
-    border-radius: 20px
+    border-radius: 20px;
+    object-fit: cover; 
   }
   
   
@@ -463,7 +463,7 @@ body{
     justify-content: center;
     align-items: center;
     background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg); 
-    border-radius: 20px
+    border-radius: 20px;
   }
   
   .fundop2{
@@ -471,7 +471,7 @@ body{
     max-width: 230px; 
     height: auto;
     background: black; 
-    border-radius: 20px
+    border-radius: 20px;
   }
   
   .imgpy{
@@ -507,7 +507,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin: 30px;
+    margin-top: 30px;
   }
 
   .hcjrc {
@@ -536,7 +536,7 @@ body{
     gap: 10px;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 16px;
   }
 
   .th {
@@ -576,7 +576,7 @@ body{
   align-items: center;
   background: conic-gradient(from 180deg at 0.00% 100.00%, #9D4EDD 36deg, #5D4EFC 292deg);
   border-radius: 20px;
-  margin: 20px;
+  margin-top: 20px;
 }
 
   .fundop3, .fundop4, .fundop5, .fundop6 {
@@ -632,7 +632,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px; /* Ajustar o espaçamento em telas menores */
-    margin: 30px;
+    margin-top: 15px;
   }
 
   .jc, .csc, .phpc, .cobolc {
